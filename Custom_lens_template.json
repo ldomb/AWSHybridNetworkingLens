@@ -1,0 +1,252 @@
+{
+    "description": "AWS Well Architected Hybrid Networking Bestpractices",
+    "name": "Hybrid Networking Lens",
+    "pillars": [
+        {
+            "id": "pillar_id_1",
+            "name": "Operational Excellence",
+            "questions": [
+                {
+                    "choices": [
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice1",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #1"
+                        },
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice2",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #2"
+                        }
+                    ],
+                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "id": "pillar_1_q1",
+                    "riskRules": [
+                        {
+                            "condition": "choice1 && choice2",
+                            "risk": "NO_RISK"
+                        },
+                        {
+                            "condition": "choice1 && !choice2",
+                            "risk": "MEDIUM_RISK"
+                        },
+                        {
+                            "condition": "default",
+                            "risk": "HIGH_RISK"
+                        }
+                    ],
+                    "title": "My first question"
+                }
+            ]
+        },
+        {
+            "id": "pillar_id_2",
+            "name": "Security",
+            "questions": [
+                {
+                    "choices": [
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice1",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #1"
+                        },
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice2",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #2"
+                        }
+                    ],
+                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "id": "pillar_1_q1",
+                    "riskRules": [
+                        {
+                            "condition": "choice1 && choice2",
+                            "risk": "NO_RISK"
+                        },
+                        {
+                            "condition": "choice1 && !choice2",
+                            "risk": "MEDIUM_RISK"
+                        },
+                        {
+                            "condition": "default",
+                            "risk": "HIGH_RISK"
+                        }
+                    ],
+                    "title": "My first question"
+                }
+            ]
+        },
+        {
+            "id": "pillar_id_3",
+            "name": "Reliability",
+            "questions": [
+                {
+                    "choices": [
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice1",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #1"
+                        },
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice2",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #2"
+                        }
+                    ],
+                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "id": "pillar_1_q1",
+                    "riskRules": [
+                        {
+                            "condition": "choice1 && choice2",
+                            "risk": "NO_RISK"
+                        },
+                        {
+                            "condition": "choice1 && !choice2",
+                            "risk": "MEDIUM_RISK"
+                        },
+                        {
+                            "condition": "default",
+                            "risk": "HIGH_RISK"
+                        }
+                    ],
+                    "title": "My first question"
+                }
+            ]
+        },
+        {
+            "id": "pillar_id_4",
+            "name": "Performance Efficiency",
+            "questions": [
+                {
+                    "choices": [
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice1",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #1"
+                        },
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice2",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #2"
+                        }
+                    ],
+                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "id": "pillar_1_q1",
+                    "riskRules": [
+                        {
+                            "condition": "choice1 && choice2",
+                            "risk": "NO_RISK"
+                        },
+                        {
+                            "condition": "choice1 && !choice2",
+                            "risk": "MEDIUM_RISK"
+                        },
+                        {
+                            "condition": "default",
+                            "risk": "HIGH_RISK"
+                        }
+                    ],
+                    "title": "My first question"
+                }
+            ]
+        },
+        {
+            "id": "pillar_id_5",
+            "name": "Cost Optimization",
+            "questions": [
+                {
+                    "choices": [
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice1",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #1"
+                        },
+                        {
+                            "helpfulResource": {
+                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
+                                "url": "https://aws.amazon.com"
+                            },
+                            "id": "choice2",
+                            "improvementPlan": {
+                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                            },
+                            "title": "Best practice #2"
+                        }
+                    ],
+                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "id": "pillar_1_q1",
+                    "riskRules": [
+                        {
+                            "condition": "choice1 && choice2",
+                            "risk": "NO_RISK"
+                        },
+                        {
+                            "condition": "choice1 && !choice2",
+                            "risk": "MEDIUM_RISK"
+                        },
+                        {
+                            "condition": "default",
+                            "risk": "HIGH_RISK"
+                        }
+                    ],
+                    "title": "My first question"
+                }
+            ]
+        }
+    ],
+    "schemaVersion": "2021-11-01"
+}
