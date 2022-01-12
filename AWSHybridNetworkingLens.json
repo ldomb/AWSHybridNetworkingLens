@@ -10,28 +10,29 @@
                     "choices": [
                         {
                             "helpfulResource": {
-                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
-                                "url": "https://aws.amazon.com"
+                                "displayText": "Amazon VPC IP Address Manager (IPAM) is a VPC feature that makes it easier for you to plan, track, and monitor IP addresses for your AWS workloads. When using Amazon VPC IPAM in conjuction with AWS Organizations you can monitor IP address usage throughout your AWS Organization and share IP address pools across member accounts.",
+                                "url": "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-ipam.html"
                             },
                             "id": "choice1",
                             "improvementPlan": {
-                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                                "displayText": "To get insights into the usage of your IP Addresses in AWS, AWS recommends to implement AWS VPC IPAM. AWS IPAM enabled across AWS accounts and provide you with a holistc view of your IP Address consumption on AWS"
                             },
-                            "title": "Best practice #1"
+                            "title": "Are you using any IPAM solutions for AWS"
                         },
                          {
                             "helpfulResource": {
-                                "displayText": "It's recommended that you include a helpful resource text and URL for each choice for your users.",
-                                "url": "https://aws.amazon.com"
+                                "displayText": "As AWS adoption increases throughout an organization, the number of networks and virtual private clouds (VPCs) to support them also increases. Customers can see growth upwards of tens, hundreds, or in the case of the enterprise, thousands of VPCs. Architecting for scale is thefore a key aspect for a sucessfull AWS implementation",
+                                "url": "https://aws.amazon.com/blogs/architecture/field-notes-how-to-scale-your-networks-on-amazon-web-services/"
                             },
                             "id": "choice2",
                             "improvementPlan": {
-                                "displayText": "You must have improvement plans per choice. It's optional whether or not to have a corresponding URL."
+                                "displayText": "Keep scale in mind when designing VPC's in AWS. VPC CDIR ranges can be extended but not reduced. If needed an AWS VPC can have two different CIDR's associated to it. Such design can help with IP exhaustion.",
+                                "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-solve-private-ip-exhaustion-with-private-nat-solution/"
                             },
-                            "title": "Best practice #2"
+                            "title": "Are you simplifying routing, connectivity and isolation boundries"
                         }
                     ],
-                    "description": "Description isn't a necessary property here for a question, but it might help your lens users.",
+                    "description": "When creating a hybrid network between AWS and on premises you will have to think about what CIDR ranges you would like to allocate to your AWS VPC's, what AWS Networking Serivces you want use to connect to the AWS VPC's from on-onpremises, as well as how you will advertise your routes between the on-premises and AWS networks. To help with the management of IP Address spaces as well as the management of routes, customers implement various mechanims to simplify such network connectivity.",
                     "id": "pillar_1_q1",
                     "riskRules": [
                         {
